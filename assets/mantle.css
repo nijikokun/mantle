@@ -473,8 +473,11 @@
 	/* Form Tokens */
 
 	--bg-form: var(--white);
-	--bg-form-hover: var(--bg-neutral-muted-hover);
-	--bg-form-active: var(--bg-neutral-muted-active);
+
+	/* TODO maybe alpha steps should be defined in vars instead of tailwind config */
+	
+	--bg-form-hover: var(--bg-gray-500) / 0.08;
+	--bg-form-active: var(--bg-gray-500) / 0.12;
 	--border-form: var(--gray-300);
 
 	/* Theme Tokens */
