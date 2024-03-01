@@ -11,11 +11,11 @@ const buttonVariants = cva(
 		variants: {
 			appearance: {
 				outlined:
-					"inline-flex h-11 border border-blue-600 bg-form px-3 font-medium text-blue-600 hover:bg-accent-muted-hover focus-visible:ring-blue active:bg-accent-muted-active sm:h-9",
+					"inline-flex h-11 border border-blue-600 bg-form px-3 font-medium text-blue-600 hover:bg-blue-alpha-50 focus-visible:ring-blue active:bg-blue-alpha-100 sm:h-9",
 				filled:
 					"inline-flex h-11 border border-transparent bg-accent px-3 font-medium text-inverted hover:bg-accent-hover focus-visible:border-blue-600 focus-visible:ring-blue active:bg-accent-active sm:h-9",
 				ghost:
-					"inline-flex h-11 border border-transparent px-3 font-medium text-blue-600 hover:bg-accent-muted-hover focus-visible:ring-blue active:bg-accent-muted-active sm:h-9",
+					"inline-flex h-11 border border-transparent px-3 font-medium text-blue-600 hover:bg-blue-alpha-50 focus-visible:ring-blue active:bg-blue-alpha-100 sm:h-9",
 				link: "inline cursor-pointer border-transparent text-blue-600 hover:underline focus-visible:ring-blue",
 			},
 			priority: {
