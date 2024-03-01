@@ -503,18 +503,6 @@
 	--text-placeholder: var(--gray-950) / 0.5;
 	--text-inverted: var(--tw-white);
 
-	--text-neutral: var(--gray-600);
-	--text-accent: var(--blue-600);
-	--text-danger: var(--red-600);
-	--text-warning: var(--amber-600);
-	--text-success: var(--green-600);
-
-	--text-neutral-strong: var(--gray-700);
-	--text-accent-strong: var(--blue-700);
-	--text-danger-strong: var(--red-700);
-	--text-warning-strong: var(--amber-700);
-	--text-success-strong: var(--green-700);
-
 	--ring-gray: var(--gray-500) / 0.25;
 	--ring-blue: var(--blue-500) / 0.25;
 	--ring-red: var(--red-500) / 0.25;

@@ -11,12 +11,12 @@ const buttonVariants = cva(
 		variants: {
 			appearance: {
 				outlined:
-					"inline-flex h-11 border border-blue-600 bg-form px-3 font-medium text-accent hover:bg-accent-muted-hover focus-visible:ring-blue active:bg-accent-muted-active sm:h-9",
+					"inline-flex h-11 border border-blue-600 bg-form px-3 font-medium text-blue-600 hover:bg-accent-muted-hover focus-visible:ring-blue active:bg-accent-muted-active sm:h-9",
 				filled:
 					"inline-flex h-11 border border-transparent bg-accent px-3 font-medium text-inverted hover:bg-accent-hover focus-visible:border-blue-600 focus-visible:ring-blue active:bg-accent-active sm:h-9",
 				ghost:
-					"inline-flex h-11 border border-transparent px-3 font-medium text-accent hover:bg-accent-muted-hover focus-visible:ring-blue active:bg-accent-muted-active sm:h-9",
-				link: "inline cursor-pointer border-transparent text-accent hover:underline focus-visible:ring-blue",
+					"inline-flex h-11 border border-transparent px-3 font-medium text-blue-600 hover:bg-accent-muted-hover focus-visible:ring-blue active:bg-accent-muted-active sm:h-9",
+				link: "inline cursor-pointer border-transparent text-blue-600 hover:underline focus-visible:ring-blue",
 			},
 			priority: {
 				default: "",
@@ -32,13 +32,13 @@ const buttonVariants = cva(
 				appearance: "ghost",
 				priority: "danger",
 				class:
-					"border-transparent text-danger hover:bg-red-alpha-50 focus-visible:ring-red active:bg-red-alpha-100",
+					"border-transparent text-red-600 hover:bg-red-alpha-50 focus-visible:ring-red active:bg-red-alpha-100",
 			},
 			{
 				appearance: "outlined",
 				priority: "danger",
 				class:
-					"border-red-600 bg-form text-danger hover:bg-red-alpha-50 focus-visible:ring-red active:bg-red-alpha-100",
+					"border-red-600 bg-form text-red-600 hover:bg-red-alpha-50 focus-visible:ring-red active:bg-red-alpha-100",
 			},
 			{
 				appearance: "filled",
@@ -49,7 +49,7 @@ const buttonVariants = cva(
 			{
 				appearance: "link",
 				priority: "danger",
-				class: "text-danger focus-visible:ring-red",
+				class: "text-red-600 focus-visible:ring-red",
 			},
 			{
 				appearance: "ghost",
