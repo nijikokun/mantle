@@ -439,11 +439,9 @@ const mantlePreset = {
 				"warning-muted": "hsl(var(--border-warning-muted))",
 			},
 			ringColor: {
-				accent: "hsl(var(--ring-accent))",
-				danger: "hsl(var(--ring-danger))",
-				neutral: "hsl(var(--ring-neutral))",
-				success: "hsl(var(--ring-success))",
-				warning: "hsl(var(--ring-warning))",
+				blue: "hsl(var(--ring-blue))",
+				red: "hsl(var(--ring-red))",
+				gray: "hsl(var(--ring-gray))",
 			},
 			cursor: {
 				inherit: "inherit",
