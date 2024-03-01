@@ -442,6 +442,7 @@ const mantlePreset = {
 				blue: "hsl(var(--ring-blue))",
 				red: "hsl(var(--ring-red))",
 				gray: "hsl(var(--ring-gray))",
+				green: "hsl(var(--ring-green))",
 			},
 			cursor: {
 				inherit: "inherit",
