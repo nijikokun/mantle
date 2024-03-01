@@ -32,13 +32,13 @@ const buttonVariants = cva(
 				appearance: "ghost",
 				priority: "danger",
 				class:
-					"border-transparent text-danger hover:bg-danger-muted-hover focus-visible:ring-red active:bg-danger-muted-active",
+					"border-transparent text-danger hover:bg-red-alpha-50 focus-visible:ring-red active:bg-red-alpha-100",
 			},
 			{
 				appearance: "outlined",
 				priority: "danger",
 				class:
-					"border-red-600 bg-form text-danger hover:bg-danger-muted-hover focus-visible:ring-red active:bg-danger-muted-active",
+					"border-red-600 bg-form text-danger hover:bg-red-alpha-50 focus-visible:ring-red active:bg-red-alpha-100",
 			},
 			{
 				appearance: "filled",
@@ -55,19 +55,19 @@ const buttonVariants = cva(
 				appearance: "ghost",
 				priority: "neutral",
 				class:
-					"text-strong border-transparent hover:bg-neutral-muted-hover focus-visible:ring-blue active:bg-neutral-muted-active",
+					"text-strong border-transparent hover:bg-gray-alpha-50 focus-visible:ring-blue active:bg-gray-alpha-100",
 			},
 			{
 				appearance: "outlined",
 				priority: "neutral",
 				class:
-					"text-strong border-form bg-form hover:bg-neutral-muted-hover focus-visible:border-blue-600 focus-visible:ring-blue active:bg-neutral-muted-active",
+					"text-strong border-form bg-form hover:bg-gray-alpha-50 focus-visible:border-blue-600 focus-visible:ring-blue active:bg-gray-alpha-100",
 			},
 			{
 				appearance: "filled",
 				priority: "neutral",
 				class:
-					"border-transparent bg-neutral hover:bg-neutral-hover focus-visible:border-neutral focus-visible:ring-gray active:bg-neutral-active",
+					"border-transparent bg-neutral hover:bg-neutral-hover focus-visible:border-gray-600 focus-visible:ring-gray active:bg-neutral-active",
 			},
 			{
 				appearance: "link",
