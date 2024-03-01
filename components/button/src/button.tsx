@@ -11,9 +11,9 @@ const buttonVariants = cva(
 		variants: {
 			appearance: {
 				outlined:
-					"inline-flex h-11 border border-accent bg-form px-3 font-medium text-accent hover:bg-accent-muted-hover focus-visible:ring-blue active:bg-accent-muted-active sm:h-9",
+					"inline-flex h-11 border border-blue-600 bg-form px-3 font-medium text-accent hover:bg-accent-muted-hover focus-visible:ring-blue active:bg-accent-muted-active sm:h-9",
 				filled:
-					"inline-flex h-11 border border-transparent bg-accent px-3 font-medium text-inverted hover:bg-accent-hover focus-visible:border-accent focus-visible:ring-blue active:bg-accent-active sm:h-9",
+					"inline-flex h-11 border border-transparent bg-accent px-3 font-medium text-inverted hover:bg-accent-hover focus-visible:border-blue-600 focus-visible:ring-blue active:bg-accent-active sm:h-9",
 				ghost:
 					"inline-flex h-11 border border-transparent px-3 font-medium text-accent hover:bg-accent-muted-hover focus-visible:ring-blue active:bg-accent-muted-active sm:h-9",
 				link: "inline cursor-pointer border-transparent text-accent hover:underline focus-visible:ring-blue",
@@ -38,13 +38,13 @@ const buttonVariants = cva(
 				appearance: "outlined",
 				priority: "danger",
 				class:
-					"border-danger bg-form text-danger hover:bg-danger-muted-hover focus-visible:ring-red active:bg-danger-muted-active",
+					"border-red-600 bg-form text-danger hover:bg-danger-muted-hover focus-visible:ring-red active:bg-danger-muted-active",
 			},
 			{
 				appearance: "filled",
 				priority: "danger",
 				class:
-					"border-transparent bg-danger hover:bg-danger-hover focus-visible:border-danger focus-visible:ring-red active:bg-danger-active",
+					"border-transparent bg-danger hover:bg-danger-hover focus-visible:border-red-600 focus-visible:ring-red active:bg-danger-active",
 			},
 			{
 				appearance: "link",
@@ -61,7 +61,7 @@ const buttonVariants = cva(
 				appearance: "outlined",
 				priority: "neutral",
 				class:
-					"text-strong border-form bg-form hover:bg-neutral-muted-hover focus-visible:border-accent focus-visible:ring-blue active:bg-neutral-muted-active",
+					"text-strong border-form bg-form hover:bg-neutral-muted-hover focus-visible:border-blue-600 focus-visible:ring-blue active:bg-neutral-muted-active",
 			},
 			{
 				appearance: "filled",
