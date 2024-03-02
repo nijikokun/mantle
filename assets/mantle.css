@@ -540,10 +540,10 @@
 	--bg-popover: var(--white);
 	--bg-dialog: var(--white);
 
-	--bg-base-hover: var(--gray-500) / 0.08;
-	--bg-card-hover: var(--gray-100) / 0.08;
-	--bg-popover-hover: var(--gray-100) / 0.08;
-	--bg-dialog-hover: var(--gray-100) / 0.08;
+	--bg-base-hover: var(--gray-a50);
+	--bg-card-hover: var(--gray-a50);
+	--bg-popover-hover: var(--gray-a50);
+	--bg-dialog-hover: var(--gray-a50);
 
 	--border-base: var(--gray-300);
 	--border-card: var(--gray-300);
@@ -591,23 +591,23 @@
 	--bg-warning-active: var(--amber-700);
 	--bg-success-active: var(--green-700);
 
-	--bg-neutral-muted: var(--gray-500) / 0.08;
-	--bg-accent-muted: var(--blue-500) / 0.08;
-	--bg-danger-muted: var(--red-500) / 0.08;
-	--bg-warning-muted: var(--amber-500) / 0.08;
-	--bg-success-muted: var(--green-500) / 0.08;
+	--bg-neutral-muted: var(--gray-a50);
+	--bg-accent-muted: var(--blue-a50);
+	--bg-danger-muted: var(--red-a50);
+	--bg-warning-muted: var(--amber-a50);
+	--bg-success-muted: var(--green-a50);
 
-	--bg-neutral-muted-hover: var(--gray-500) / 0.08;
-	--bg-accent-muted-hover: var(--blue-500) / 0.08;
-	--bg-danger-muted-hover: var(--red-500) / 0.08;
-	--bg-warning-muted-hover: var(--amber-500) / 0.08;
-	--bg-success-muted-hover: var(--green-500) / 0.08;
+	--bg-neutral-muted-hover: var(--gray-a50);
+	--bg-accent-muted-hover: var(--blue-a50);
+	--bg-danger-muted-hover: var(--red-a50);
+	--bg-warning-muted-hover: var(--amber-a50);
+	--bg-success-muted-hover: var(--green-a50);
 
-	--bg-neutral-muted-active: var(--gray-500) / 0.12;
-	--bg-accent-muted-active: var(--blue-500) / 0.12;
-	--bg-danger-muted-active: var(--red-500) / 0.12;
-	--bg-warning-muted-active: var(--amber-500) / 0.12;
-	--bg-success-muted-active: var(--green-500) / 0.12;
+	--bg-neutral-muted-active: var(--gray-a100);
+	--bg-accent-muted-active: var(--blue-a100);
+	--bg-danger-muted-active: var(--red-a100);
+	--bg-warning-muted-active: var(--amber-a100);
+	--bg-success-muted-active: var(--green-a100);
 
 	--border-neutral: var(--gray-600);
 	--border-accent: var(--blue-600);
@@ -615,11 +615,11 @@
 	--border-warning: var(--amber-600);
 	--border-success: var(--green-600);
 
-	--border-neutral-muted: var(--gray-500) / 0.75;
-	--border-accent-muted: var(--blue-500) / 0.75;
-	--border-danger-muted: var(--red-500) / 0.75;
-	--border-warning-muted: var(--amber-500) / 0.75;
-	--border-success-muted: var(--green-500) / 0.75;
+	--border-neutral-muted: var(--gray-a400);
+	--border-accent-muted: var(--blue-a400);
+	--border-danger-muted: var(--red-a400);
+	--border-warning-muted: var(--amber-a400);
+	--border-success-muted: var(--green-a400);
 
 	--text-strong: var(--gray-950);
 	--text-default: var(--gray-950) / 0.75;
