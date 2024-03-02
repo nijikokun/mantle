@@ -10,7 +10,7 @@ const Checkbox = forwardRef<ElementRef<typeof CheckboxPrimitive.Root>, Props>(({
 	<CheckboxPrimitive.Root
 		ref={ref}
 		className={cx(
-			"size-4 shrink-0 appearance-none rounded border border-form focus:border-blue-600 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-blue disabled:cursor-not-allowed disabled:opacity-50 data-state-checked:border-transparent data-state-checked:bg-accent data-state-indeterminate:border-transparent data-state-indeterminate:bg-accent",
+			"size-4 shrink-0 appearance-none rounded border bg-form border-form focus:border-blue-600 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-blue disabled:cursor-not-allowed disabled:opacity-50 data-state-checked:border-transparent data-state-checked:bg-accent data-state-indeterminate:border-transparent data-state-indeterminate:bg-accent",
 			className,
 		)}
 		{...props}
