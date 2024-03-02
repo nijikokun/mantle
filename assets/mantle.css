@@ -534,7 +534,7 @@
 	--text-placeholder: var(--gray-950) / 0.5;
 	--text-inverted: var(--tw-white);
 
-	--text-neutral: var(--gray-600);
+	--text-neutral: var(--text-default);
 	--text-accent: var(--blue-600);
 	--text-danger: var(--red-600);
 	--text-warning: var(--amber-600);
