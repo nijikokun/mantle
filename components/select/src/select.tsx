@@ -32,9 +32,9 @@ const selectTriggerVariants = cva(
 		variants: {
 			state: {
 				danger:
-					"border-red-600 focus:border-red-600 focus:ring-red aria-expanded:border-red-600 aria-expanded:ring-red",
+					"border-red-600 focus:border-red-600 focus:ring-danger aria-expanded:border-red-600 aria-expanded:ring-danger",
 				default:
-					"text-strong borderpform placeholder:text-placeholder focus:border-blue-600 focus:ring-blue aria-expanded:border-blue-600 aria-expanded:ring-blue",
+					"text-strong borderpform placeholder:text-placeholder focus:border-blue-600 focus:ring-accent aria-expanded:border-blue-600 aria-expanded:ring-accent",
 			},
 		},
 		defaultVariants: {

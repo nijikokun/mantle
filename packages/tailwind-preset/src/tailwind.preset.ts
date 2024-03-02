@@ -402,10 +402,10 @@ const mantlePreset = {
 				"card-muted": "hsl(var(--border-card-muted))",
 			},
 			ringColor: {
-				blue: "hsl(var(--ring-blue))",
-				red: "hsl(var(--ring-red))",
-				gray: "hsl(var(--ring-gray))",
-				green: "hsl(var(--ring-green))",
+				accent: "hsl(var(--ring-accent))",
+				danger: "hsl(var(--ring-danger))",
+				neutral: "hsl(var(--ring-neutral))",
+				success: "hsl(var(--ring-success))",
 			},
 			cursor: {
 				inherit: "inherit",
