@@ -31,14 +31,12 @@ const buttonVariants = cva(
 			{
 				appearance: "ghost",
 				priority: "danger",
-				class:
-					"border-transparent text-red-600 hover:bg-red-a50 focus-visible:ring-red active:bg-red-a100",
+				class: "border-transparent text-red-600 hover:bg-red-a50 focus-visible:ring-red active:bg-red-a100",
 			},
 			{
 				appearance: "outlined",
 				priority: "danger",
-				class:
-					"border-red-600 bg-form text-red-600 hover:bg-red-a50 focus-visible:ring-red active:bg-red-a100",
+				class: "border-red-600 bg-form text-red-600 hover:bg-red-a50 focus-visible:ring-red active:bg-red-a100",
 			},
 			{
 				appearance: "filled",
@@ -54,8 +52,7 @@ const buttonVariants = cva(
 			{
 				appearance: "ghost",
 				priority: "neutral",
-				class:
-					"text-strong border-transparent hover:bg-gray-a50 focus-visible:ring-blue active:bg-gray-a100",
+				class: "text-strong border-transparent hover:bg-gray-a50 focus-visible:ring-blue active:bg-gray-a100",
 			},
 			{
 				appearance: "outlined",

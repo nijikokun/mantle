@@ -70,11 +70,11 @@ const SheetBody = ({ className, ...props }: HTMLAttributes<HTMLDivElement>) => (
 );
 
 const SheetHeader = ({ className, ...props }: HTMLAttributes<HTMLDivElement>) => (
-	<div className={cx("shrink-0 border-b border-dialog-muted px-6 py-4", className)} {...props} />
+	<div className={cx("border-dialog-muted shrink-0 border-b px-6 py-4", className)} {...props} />
 );
 
 const SheetFooter = ({ className, ...props }: HTMLAttributes<HTMLDivElement>) => (
-	<div className={cx("shrink-0 border-t border-dialog-muted px-6 py-2.5", className)} {...props} />
+	<div className={cx("border-dialog-muted shrink-0 border-t px-6 py-2.5", className)} {...props} />
 );
 
 const SheetTitle = forwardRef<
