@@ -381,7 +381,6 @@ const mantlePreset = {
 				"neutral-hover": "hsl(var(--bg-neutral-hover))",
 				"popover-hover": "hsl(var(--bg-popover-hover))",
 				"success-active": "hsl(var(--bg-success-active))",
-				"success-muted": "hsl(var(--bg-success-muted))",
 				"warning-active": "hsl(var(--bg-warning-active))",
 				"warning-hover": "hsl(var(--bg-warning-hover))",
 			},
